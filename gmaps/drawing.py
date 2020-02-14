@@ -721,7 +721,7 @@ class Drawing(GMapsWidgetMixin, widgets.Widget):
 @doc_subst(_doc_snippets)
 def drawing_layer(
         features=None, mode=DEFAULT_DRAWING_MODE,
-        show_controls=True, marker_options=None, line_options=None,
+        show_controls=False, marker_options=None, line_options=None,
         polygon_options=None):
     """
     Create an interactive drawing layer
